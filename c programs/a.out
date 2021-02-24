@@ -1,0 +1,9 @@
+Enter the size of the array : 
+Enter the array elements : 
+The entered array is : 
+11	69	0	20	1	2	3	5	99	70	
+Enter the element to be searched : 
+Enter 1 for Linear Search, 
+Enter 2 for Binarry Searched.
+Enter your choice : 
+Element found at 3 th position.
