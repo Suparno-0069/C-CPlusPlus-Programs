@@ -60,5 +60,6 @@ int main()
 {
     
     cout << "enter name";
+    cout << "rr";
     return 0;
 }
