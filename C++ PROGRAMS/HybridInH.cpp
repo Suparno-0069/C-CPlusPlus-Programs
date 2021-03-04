@@ -59,6 +59,6 @@ class Result : public Academic, public ExtraC{
 int main()
 {
     
-    
+    cout << "enter name";
     return 0;
 }
