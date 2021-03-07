@@ -4,12 +4,12 @@ using namespace std;
 class Complex{
 	int real, img;
 	public:
-		getData()
+		void getData()
 		{
 			cout << "Enter the values for the real part and imaginary part: ";
 			cin >> real >> img;
 		}
-		display()
+		void display()
 		{
 			if(img<0)
 				cout << "Complex number : " << real << " - i" << img << endl;

@@ -6,7 +6,7 @@ class B;
 class A{
 	int a;
 	public:
-		getData()
+		void getData()
 		{
 			cout << "\nEnter the number : " << endl;
 			cin >> a;
@@ -18,7 +18,7 @@ class A{
 class B{
 	int b;
 	public:
-		getdata()
+		void getdata()
 		{
 			cout << "\nEnter the number : " << endl;
 			cin >> b;

@@ -4,7 +4,7 @@ class Person{
 	public:
 		string gen, name;
 		int age;
-		getData()
+		void getData()
 		{
 			cout << "Enter Name: ";
 			cin >> name;
@@ -13,7 +13,7 @@ class Person{
 			cout << "\nEnter Age: ";
 			cin >> age;
 		}
-		display()
+		void display()
 		{
 			cout << "\nName : " << name;
 			cout << "\nGender : " << gen;
@@ -24,14 +24,14 @@ class Student : public Person{
 	public:
 		int cnt;
 		string SiD;
-		getD()
+		void getD()
 		{
 			cout << "\nEnter Student ID: ";
 			cin >> SiD;
 			cout << "\nEnter Contact NO.: ";
 			cin >> cnt;
 		}
-		show()
+		void show()
 		{
 			cout << "\nStudent ID : " << SiD;
 			cout << "\nContact NO. : " << cnt << endl;

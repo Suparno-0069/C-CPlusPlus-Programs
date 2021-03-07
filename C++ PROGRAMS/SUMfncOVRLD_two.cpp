@@ -7,11 +7,11 @@ class NewSum{
 		{
 			cout << "\nThe sum of the integers : " << a + b << endl;
 		}
-		void Sum(float c, float d)
+		void Sum(double c, double d)
 		{
 			cout << "\nThe sum of floats is :" << c + d << endl;
 		}
-		void Sum(int e, float f)
+		void Sum(int e, double f)
 		{
 			cout << "\nThe sum of float and integer is :" << e + f << endl;
 		}

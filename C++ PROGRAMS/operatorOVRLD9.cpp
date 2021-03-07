@@ -2,26 +2,26 @@
 using namespace std;
 
 class Distance{
-    int ft, inc;
+    int mt, cm;
     public:
         Distance()
         {
-            ft = 0;
-            inc = 0;
+            mt = 0;
+            cm = 0;
         }
         Distance(int f, int i)
         {
-            ft = f;
-            inc = i;
+            mt = f;
+            cm = i;
         }
         friend ostream& operator << (ostream &output, const Distance &D)
         {
-            output << "Feet : " << D.ft << "\tInch : " << D.inc;
+            output << "Meter : " << D.mt << "\tCentimeter : " << D.cm;
             return output;
         }
         friend istream& operator >> (istream &input, Distance &D)
         {
-            input >> D.ft >> D.inc;
+            input >> D.mt >> D.cm;
             return input;
         }
 };

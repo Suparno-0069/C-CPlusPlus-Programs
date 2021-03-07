@@ -14,7 +14,7 @@ class Student{
 			id = i;
 			name = n;
 		}
-		display()
+		void display()
 		{
 			cout << "Name : " << name << "ID : " << id << endl;
 		}

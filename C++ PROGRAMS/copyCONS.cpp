@@ -23,7 +23,7 @@ class AreaReC{
         width = obj.width;
         cout << "Copy Constructor Invoked!";
     }
-    display() 
+    void display() 
 	{
       cout << "\n Length: " << length;
       cout << "\n Width: " << width;

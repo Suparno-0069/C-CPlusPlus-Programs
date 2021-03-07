@@ -14,19 +14,19 @@ class Complex{
 			real = a;
 			img = b;
 		}
-		getData()
+		void getData()
 		{
 			cout << "Enter the values for the real part and imaginary part: ";
 			cin >> real >> img;
 		}
-		display()
+		void display()
 		{
 			if(img<0)
 				cout << "Complex number : " << real << " - i" << img << endl;
 			else
 				cout << "Complex number : " << real << " + i" << img << endl;
 		}
-		addComp(Complex C1, Complex C2)
+		void addComp(Complex C1, Complex C2)
 		{
 			real = C1.real + C2.real;
 			img = C1.img + C2.img;
