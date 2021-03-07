@@ -38,7 +38,7 @@ class C : public B{
 
 int main()
 {
-    C c1, c2;
+    C c1, c2, C3;
     c1.getDataA();
     c1.getData();
     c1.Display();
